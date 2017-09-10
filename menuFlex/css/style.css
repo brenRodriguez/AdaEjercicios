@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(../img/galaxy.jpg);
+}
+header{
+	background-color:#384389 ;
+	padding: 20px;	
+	display: flex;
+	flex-direction: row; /*una vez que aprendamos responsive, sera practico.*/
+	justify-content: space-around;
+	align-items: center;
+}
+
+header .menu a{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	margin-right: 20px;
+}
+header .menu a:hover{
+	font-weight: bold;
+}
+.logo, .links{
+	display: inline-block;
+}
+.art1{
+	width: 40%;
+	height: 60px;
+	background-color: green;
+	position: absolute;
+}
+
+
+.art2{
+	width: 40%;
+	height: 60px;
+	background-color: blue;
+	position: absolute;
+}

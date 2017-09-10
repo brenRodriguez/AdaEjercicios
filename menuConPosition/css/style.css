@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: pink;
+	position: relative;
+	height: 150px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav .submenu{
+/*esto indica que la lista submenu que esta dentro del li Portfolio, va a estar absoluta y escondida en el nav.*/
+	position: absolute;
+	display: none;
+}
+
+nav .ancla:hover .submenu{ /*esta forma no es la correcta, sino que deberia crearse un div que contenga dos elementos.
+	el de  ancla y el de submenu.PROBARRRR°°°
+	correcion: en 3wschools tambien esta asi. Signnifikca que si hago hover sobre Portfolio,la lista submenu, 
+	aparecera en bloque.
+	*/
+
+	display: block;
+}
+
+nav .submenu li{
+	/*hace que se puedan acomodar al lado, mas items de submenu*/
+	display: inline-block;
+}
+
+nav ul li{
+	/*linea que continua con los demas links del nav*/
+	display: inline-block;
+}
+
+
