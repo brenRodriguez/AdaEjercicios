@@ -3,41 +3,86 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body{
-	background-image: url(../img/galaxy.jpg);
-}
-header{
-	background-color:#384389 ;
-	padding: 20px;	
+
+
+.container{
 	display: flex;
+	justify-content: center;
+}
+
+header{
+	background-color:#F57E5B ;	
+	width: 100%;
+	display: flex;	
 	flex-direction: row; /*una vez que aprendamos responsive, sera practico.*/
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 header .menu a{
-	color: black;
+	color: #FEFBFA;
 	text-decoration: none;
 	font-size: 30px;
-	margin-right: 20px;
+	padding-right: 20px;
+	font-family: 'Playfair Display', serif;
+	
 }
 header .menu a:hover{
 	font-weight: bold;
 }
-.logo, .links{
-	display: inline-block;
+
+.main{
+	display: flex;
+
 }
-.art1{
-	width: 40%;
-	height: 60px;
-	background-color: green;
-	position: absolute;
+.art{
+	
+	height: 1000px;
+}
+.box1{
+	display: flex;
+	width: 70%;
+	background-color: #FEFBFA;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 50px;
+
+}
+figure{
+	font-family: 'Playfair Display', serif;	
+	color: #FEFBFA;
+	text-align: center;
+}
+figure:hover{
+	font-weight: bold;
+	color:black;
+}
+figure img{
+	border: 5px solid #F57E5B;
+}
+.box2{
+	display: flex;
+	width: 30%;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #FEFBFA;
+}
+article{
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 20px;
+	font-family: 'Playfair Display', serif;
+
 }
 
+footer{
+	display: flex;
+	height: 160px;
+	background-color: #F57E5B;
+	justify-content: space-around;
+	align-items: center;
+}
 
-.art2{
-	width: 40%;
-	height: 60px;
-	background-color: blue;
-	position: absolute;
+footer img{
+	padding-left: 35px;
 }
